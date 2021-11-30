@@ -6,9 +6,11 @@ import JSON from './DB.json'
 
 class Home extends React.Component {
 
+    //Example of using Props to send data from Parent to Child Component
   constructor(props){
       super(props);
 
+      //Created a state with data (this.state.product)
       this.state={
           product : JSON
       }
@@ -16,9 +18,11 @@ class Home extends React.Component {
   }
 
     render() {
+//    <!-- Here we how we attach the data to Child class || For example we have attached prodData to ProductDisplay child component -->
         return (
             <React.Fragment>
                 <Header/>
+                
                 <ProductDisplay prodData={this.state.product}/>
                 <Footer/>
             </React.Fragment>
