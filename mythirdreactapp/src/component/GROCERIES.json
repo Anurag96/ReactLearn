@@ -1,302 +1,67 @@
-[{
-    "_id": "1",
-    "title":  "Brown eggs",
-    "type": "dairy",
-    "description": "Raw organic brown eggs in a basket",
-    "filename": "https://github.com/Anurag96/ReactLearn/blob/main/mythirdreactapp/src/component/images/0.jpg",
-    "height": 600,
-    "width": 400,
-    "price": 28.1,
-    "rating": 4
-  }, {
-    "_id": "2",
-    "title":  "Sweet fresh stawberry",
-    "type": "fruit",
-    "description": "Sweet fresh stawberry on the wooden table",
-    "filename": "./images/1.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 29.45,
-    "rating": 4
-  }, {
-    "_id": "3",
-    "title":  "Asparagus",
-    "type": "vegetable",
-    "description": "Asparagus with ham on the wooden table",
-    "filename": "./images/2.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 18.95,
-    "rating": 3
-  }, {
-    "_id": "4",
-    "title":  "Green smoothie",
-    "type": "dairy",
-    "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
-    "filename": "./images/3.jpg",
-    "height": 600,
-    "width": 399,
-    "price": 17.68,
-    "rating": 4
-  }, {
-    "_id": "5",
-    "title":  "Raw legums",
-    "type": "vegetable",
-    "description": "Raw legums on the wooden table",
-    "filename": "./images/4.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 17.11,
-    "rating": 2
-  }, {
-    "_id": "6",
-    "title":  "Baking cake",
-    "type": "dairy",
-    "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
-    "filename": "./images/5.jpg",
-    "height": 450,
-    "width": 675,
-    "price": 11.14,
-    "rating": 4
-  }, {
-    "_id": "7",
-    "title":  "Pesto with basil",
-    "type": "vegetable",
-    "description": "Italian traditional pesto with basil, chesse and oil",
-    "filename": "./images/6.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 18.19,
-    "rating": 2
-  }, {
-    "_id": "8",
-    "title":  "Hazelnut in black ceramic bowl",
-    "type": "vegetable",
-    "description": "Hazelnut in black ceramic bowl on old wooden background. forest wealth. rustic style. selective focus",
-    "filename": "./images/7.jpg",
-    "height": 450,
-    "width": 301,
-    "price": 27.35,
-    "rating": 0
-  }, {
-    "_id": "9",
-    "title":  "Fresh stawberry",
-    "type": "fruit",
-    "description": "Sweet fresh stawberry on the wooden table",
-    "filename": "./images/8.jpg",
-    "height": 600,
-    "width": 399,
-    "price": 28.59,
-    "rating": 4
-  }, {
-    "_id": "10",
-    "title":  "Lemon and salt",
-    "type": "fruit",
-    "description": "Rosemary, lemon and salt on the table",
-    "filename": "./images/9.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 15.79,
-    "rating": 5
-  }, {
-    "_id": "11",
-    "title":  "Homemade bread",
-    "type": "bakery",
-    "description": "Homemade bread",
-    "filename": "./images/10.jpg",
-    "height": 450,
-    "width": 301,
-    "price": 17.48,
-    "rating": 3
-  }, {
-    "_id": "12",
-    "title":  "Legums",
-    "type": "vegetable",
-    "description": "Cooked legums on the wooden table",
-    "filename": "./images/11.jpg",
-    "height": 600,
-    "width": 399,
-    "price": 14.77,
-    "rating": 0
-  }, {
-    "_id": "13",
-    "title":  "Fresh tomato",
-    "type": "vegetable",
-    "description": "Fresh tomato juice with basil",
-    "filename": "./images/12.jpg",
-    "height": 600,
-    "width": 903,
-    "price": 16.3,
-    "rating": 2
-  }, {
-    "_id": "14",
-    "title":  "Healthy breakfast",
-    "type": "fruit",
-    "description": "Healthy breakfast set. rice cereal or porridge with berries and honey over rustic wood background",
-    "filename": "./images/13.jpg",
-    "height": 450,
-    "width": 350,
-    "price": 13.02,
-    "rating": 2
-  }, {
-    "_id": "15",
-    "title":  "Green beans",
-    "type": "vegetable",
-    "description": "Raw organic green beans ready to eat",
-    "filename": "./images/14.jpg",
-    "height": 450,
-    "width": 300,
-    "price": 28.79,
-    "rating": 1
-  }, {
-    "_id": "16",
-    "title":  "Baked stuffed portabello mushrooms",
-    "type": "bakery",
-    "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
-    "filename": "./images/15.jpg",
-    "height": 600,
-    "width": 400,
-    "price": 20.31,
-    "rating": 1
-  }, {
-    "_id": "17",
-    "title":  "Strawberry jelly",
-    "type": "fruit",
-    "description": "Homemade organic strawberry jelly in a jar",
-    "filename": "./images/16.jpg",
-    "height": 400,
-    "width": 600,
-    "price": 14.18,
-    "rating": 1
-  }, {
-    "_id": "18",
-    "title":  "Pears juice",
-    "type": "fruit",
-    "description": "Fresh pears juice on the wooden table",
-    "filename": "./images/17.jpg",
-    "height": 600,
-    "width": 398,
-    "price": 19.49,
-    "rating": 4
-  }, {
-    "_id": "19",
-    "title":  "Fresh pears",
-    "type": "fruit",
-    "description": "Sweet fresh pears on the wooden table",
-    "filename": "./images/18.jpg",
-    "height": 600,
-    "width": 398,
-    "price": 15.12,
-    "rating": 5
-  }, {
-    "_id": "20",
-    "title":  "Caprese salad",
-    "type": "vegetable",
-    "description": "Homemade healthy caprese salad with tomato mozzarella and basil",
-    "filename": "./images/19.jpg",
-    "height": 400,
-    "width": 600,
-    "price": 16.76,
-    "rating": 5
-  }, {
-    "_id": "21",
-    "title":  "Oranges",
-    "type": "fruit",
-    "description": "Orange popsicle ice cream bars made from fresh oranges.  a refreshing summer treat.",
-    "filename": "./images/20.jpg",
-    "height": 450,
-    "width": 274,
-    "price": 21.48,
-    "rating": 4
-  }, {
-    "_id": "22",
-    "title":  "Vegan food",
-    "type": "vegetable",
-    "description": "Concept of vegan food",
-    "filename": "./images/21.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 29.66,
-    "rating": 4
-  }, {
-    "_id": "23",
-    "title":  "Breakfast with muesli",
-    "type": "dairy",
-    "description": "Concept of healthy breakfast with muesli",
-    "filename": "./images/22.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 22.7,
-    "rating": 2
-  }, {
-    "_id": "24",
-    "title":  "Honey",
-    "type": "bakery",
-    "description": "Honey and honeycell on the table",
-    "filename": "./images/23.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 17.01,
-    "rating": 2
-  }, {
-    "_id": "25",
-    "title":  "Breakfast with cottage",
-    "type": "fruit",
-    "description": "Healthy breakfast with cottage cheese and strawberry",
-    "filename": "./images/24.jpg",
-    "height": 600,
-    "width": 398,
-    "price": 14.05,
-    "rating": 1
-  }, {
-    "_id": "26",
-    "title":  "Strawberry smoothie",
-    "type": "fruit",
-    "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over dark background",
-    "filename": "./images/25.jpg",
-    "height": 600,
-    "width": 400,
-    "price": 28.86,
-    "rating": 2
-  }, {
-    "_id": "27",
-    "title":  "Strawberry and mint",
-    "type": "fruit",
-    "description": "Homemade muesli with strawberry and mint",
-    "filename": "./images/26.jpg",
-    "height": 450,
-    "width": 299,
-    "price": 26.21,
-    "rating": 4
-  }, {
-    "_id": "28",
-    "title":  "Ricotta",
-    "type": "dairy",
-    "description": "Ricotta with berry and mint",
-    "filename": "./images/27.jpg",
-    "height": 600,
-    "width": 398,
-    "price": 27.81,
-    "rating": 5
-  }, {
-    "_id": "29",
-    "title":  "Cuban sandwiche",
-    "type": "bakery",
-    "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
-    "filename": "./images/28.jpg",
-    "height": 450,
-    "width": 300,
-    "price": 18.5,
-    "rating": 4
-  }, {
-    "_id": "30",
-    "title":  "Granola",
-    "type": "dairy",
-    "description": "Glass jar with homemade granola and yogurt with nuts, raspberries and blackberries on wooden cutting board over white textile in day light",
-    "filename": "./images/29.jpg",
-    "height": 450,
-    "width": 300,
-    "price": 29.97,
-    "rating": 3
+[
+  {
+    "id": "C2-00",
+    "name": "Mustard seeds",
+    "price": 80,
+    "unit": "150 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_54/1611062/mustard-seeds-1208829.jpg"
+  },
+  {
+    "id": "C2-01",
+    "name": "Pepper",
+    "price": 120,
+    "unit": "100 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_23/674664/black-pepper-seed-1680115.jpg"
+  },
+  {
+    "id": "C2-02",
+    "name": "Cumin seeds/jeera",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "http://puritytest.in/public/img/product_images/jeera1_1_1.jpg"
+  },
+  {
+    "id": "C2-03",
+    "name": "Poppy seeds/Khus khus",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_113/3382222/2-khas-khas-poppy-seeds-2203115.jpg"
+  },
+{
+    "id": "C2-04",
+    "name": "Coriander seeds/Dhania",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_105/3122483/watermark/eagle-coriander-seeds-1201536.jpg"
+  },{
+    "id": "C2-05",
+    "name": "Fennel seeds",
+    "price": 180,
+    "unit": "50 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_115/3440565/fennel-seeds-1693027.jpg"
+  },{
+    "id": "C2-06",
+    "name": "Dry ginger piece or powder",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_62/1835594/ginger-powder-677521.jpg"
+  },{
+    "id": "C2-07",
+    "name": "Black or white sesame seeds",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "http://img1.exportersindia.com/product_images/bc-small/dir_105/3144460/sesame-seeds-1947019.jpg"
+  },{
+    "id": "C2-08",
+    "name": "Ajwain",
+    "price": 180,
+    "unit": "100 gms",
+    "image": "https://4.imimg.com/data4/HJ/KJ/MY-22994316/ajwain-250x250.jpeg"
+  },{
+    "id": "C2-09",
+    "name": "Hing/Asafetida",
+    "price": 180,
+    "unit": "1 box (Big)",
+    "image": "http://3.imimg.com/data3/RG/SE/MY-16380257/4-250x250.jpg"
   }
 ]
