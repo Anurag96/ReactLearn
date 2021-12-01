@@ -38,7 +38,7 @@
         "discount":"Less than 10%",
         "form": "Mask",
         "uses":"Respiratory Care",
-        "name":"FLOH KN95 Four Layered Air Purifying Particle Respirator Mask",
+        "name":"FLOH KN95 Four Layered Air Particle Respirator Mask",
         "image":"https://i.ibb.co/MSxXqxj/nwow2gmqjkmrqewkkx6d.png",
         "description":"box of 10 masks",
         "cost":222
@@ -49,7 +49,7 @@
         "discount":"20% and above",
         "form":"Sanitizer",
         "use": "Skin Care",
-        "name":"3M Avagard CHG Handrub Hand Sanitizer Antiseptic Solution",
+        "name":"3M Avagard CHG Handrub Antiseptic Solution",
         "image":"https://i.ibb.co/HpHFygW/vcweesrsrifexmfl55wo.png",
         "description":"bottle of 100 ml Liquid",
         "cost":200
@@ -295,5 +295,16 @@
         "image":"https://i.ibb.co/bH59XYY/n0ck9phylmmbr2hsgpua.png",
         "description":"box of 1 Unit",
         "cost":292
+    },
+    {
+        "id":28,
+        "brand":"1mg",
+        "discount":"30% and above",
+        "form":"Bottle",
+        "use":"Cough & cold",
+        "name":"1mg Turmeric Drops with Piperine",
+        "image":"https://i.ibb.co/kxVhzfG/kkdzmgnewqmtezxvl39v.jpg",
+        "description":"bottle of 30 ml Drop",
+        "cost":138
     }
 ]

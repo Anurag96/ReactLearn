@@ -6,7 +6,7 @@ const ProductDisplay = (props) => {
     const renderProduct = props.prodData.map((item) => {
         return(
             <div className="card" key={item.id}>
-                <img src={item.image} style={{height:100,width:100}}/>
+                <img src={item.image} style={{height:100,width:100}} alt="image"/>
                 <h2>{item.name}</h2>
                 <p>{item.brand}</p>
             </div>
