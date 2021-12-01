@@ -15,7 +15,7 @@ class Home extends Component
         }
     }
 
-        filterProduct = (keyword)=>{
+        filterProduct(keyword){
             var output = this.state.products.filter((data)=>{
                 return data.name.toLowerCase().indexOf(keyword.toLowerCase()) > -1
             })
