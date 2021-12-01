@@ -7,10 +7,10 @@ const DisplayItems = (props)=>{
         return(
 
             <div className="card" key="{item.id}" >
-                <p style={{color:"white"}}>{item.name}</p>
-                <img src={item.image} style={{height:100,width:100}} alt="image"/>
+            <center><h4 style={{color:"white"}}>{item.name.toUpperCase()}</h4>
+                <img src={item.image} style={{height:180,width:185}} alt="image"/>
                 <p style={{color:"white"}}>Quantity : {item.unit}</p>
-                <p style={{color:"white"}}>${item.price}</p>
+                <p style={{color:"white"}}>Price : ${item.price}</p></center>
             </div>
           
            
