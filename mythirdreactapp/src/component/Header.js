@@ -4,14 +4,17 @@ import './Header.css'
 class Header extends Component {
 
     constructor(props) {
+
+        //Here we need super to use THIS keyword to refer this.handleChange, else we get 'handleChange' is not defined
         super(props)
+       
     }
 
+    
+    /** Always when onChange event is fired handleChange method is called */
     handleChange=(event)=>{
-        //console.log(event)
-           this.setState({keyword:event.target.value ? event.target.value : 'SEARCH'});
-        //    filterProduct(keyword) wrong way
-        this.props.userText(event.target.value) //passing the data to Parent, by callling function in Parent
+        // console.log(event)
+            this.props.userText(event.target.value) //passing the data to Parent, by callling function in Parent
        }
     
     render() {
@@ -24,7 +27,7 @@ class Header extends Component {
                     </div>
                 </div>
                 <div>
-                <form class="search">
+                <form className="search">
                      <center>
                      <br/>
                         <input type="text" className="search__input" placeholder="Search"  onChange={this.handleChange}/>

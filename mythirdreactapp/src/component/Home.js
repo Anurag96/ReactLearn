@@ -20,7 +20,7 @@ class Home extends Component {
         this.setState({searchProduct:output})
     }
     render() {
-        console.log(this.state.products)
+        // console.log(this.state.products)
         return(
             <div>
                 <Header userText={(data)=>{this.filterProduct(data)}}/>
