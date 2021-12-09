@@ -5,16 +5,20 @@ import Footer from './Footer'
 import Home from './Home'
 import Post from './Post'
 import Profile from './Profile'
+import PostDetails from './PostDetails'
 
 const Routing =()=>{
     return(
-        <BrowserRouter>
-            <Header />
-                <Route exact path="/" component={Home}/>
-                <Route exact path="/profile" component={Profile}/>
-                <Route exact path="/post" component={Post}/>
-            <Footer/>
-        </BrowserRouter>
+        <div className="container">
+            <BrowserRouter>
+                <Header />
+                    <Route exact path="/" component={Home}/>
+                    <Route  path="/profile" component={Profile}/>
+                    <Route exact path="/post/:value" component={PostDetails}/>
+                    <Route exact path="/post" component={Post}/>
+                <Footer/>
+            </BrowserRouter>
+        </div>
     )
  }
 
